@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #191d2b;
+    width: 100%;
+    /* height: ; */
+}
+
+
+.imgs img{
+  
+    height: 700px;
+    background: black;
+    margin-bottom: 49px;
+}
+
+.hero-title{
+}
+
+.hero-title h3{
+    color: white;
+
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.hero-title h1{
+    color: #d92525;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.hero-title h1::before{
+    color: red;
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 35px;
+    height: 4px;
+    width: 45px;
+    border-radius: 10px;
+}
+
+.hero-title h2{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.hero-title p{
+    font-size: 20px;
+    color: white;
+    /* width: 450px; */
+    line-height: 32px;
+    padding-right: 25px;
+}
+.socel{
+    color: white;
+
+}
+.socel ul{
+    display: flex;
+}
+.socel ul li{
+    display: flex;
+    font-size: 48px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.socel ul li:hover{
+    background: #d92525;
+    border-radius: 50%;
+}
+
+.hero-title button{
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    border-color: #d92525;
+}
+.hero-title button i{
+    font-size: 24px;
+    padding-left: 20px;
+    
+
+}
+.hero-title button:hover{
+    background-color: #d92525;
+    
+}
+.menu{
+    color: white;
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.menu a{
+    color: white;
+    font-size: 20px;
+
+}
+
+.menu  li {
+    display: flex;
+    font-size: 20px;
+    padding: 20px 20px;
+    background: #253659;
+    border-radius: 33px;
+    margin-bottom: 10px;
+}
+
+
+/* About */
+
+body{
+    background-color: #191d2b;
+    width: 100%;
+    /* height: 100%; */
+}
+#about{
+   
+}
+.title{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.title h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+}
+.title span{
+    color: #d92525;
+}
+
+.inf{
+    color: white;
+    width: 500PX;
+    float: right;
+}
+.inf h3{
+    font-size: 32PX;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.inf p{
+    font-size: 22px;
+    padding-right: 20px;
+    color: rgb(238, 225, 225);
+    font-weight: 200;
+}
+.inf button{
+
+}
+
+.inf button{
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    border-color: #d92525;
+}
+.inf button i{
+    font-size: 24px;
+    padding-left: 20px;
+    
+
+}
+.inf button:hover{
+    background-color: #d92525;
+    
+}
+
+.about-item{
+    color: aliceblue;
+}
+.about-text{
+    padding: 1.4rem;
+    border: 1px solid #253659;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.large-text{
+    font-size: 48px;
+    color: #d92525;
+    font-weight: bold;
+}
+
+.small-text{
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(241, 236, 236);
+    letter-spacing: 2px;
+}
+
+.about-item.about-text.small-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color: green;
+}
+hr{
+  width: 30%;
+  color: #d92525;
+}
+
+.progress-bar{
+    color: #d92525;
+    
+}
+
+.skill{
+    text-align: center;
+
+}
+
+.skill h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.progress-title h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.progress{
+    height: 10px;
+    background-color: #253659;
+
+}
+
+.count h3{
+    font-size: 20px;
+    color: rgb(170, 156, 156);
+    font-weight: 400;
+}
+.progress-list{
+    width: 550px;
+}
+
+
+/* EXPERIENCES */
+
+
+/* #EXPERIENCES{
+    border-bottom:  2px solid green;
+} */
+.job{
+    text-align: center;
+    
+}
+
+.job h3{
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* #EXPERIENCES{
+    width: 600px;
+} */
+.job-exp{
+
+}
+
+.job-title{
+    color: white;
+    /* width: 500px; */
+    /* align-items: center; */
+    /* width: 550px; */
+}
+
+.job-dis{
+    border-left: 1px solid gray;
+    margin-left: 20px;
+    
+
+}
+.icon i{
+    font-size: 20px;
+    padding: 12px 12px;
+    background: #d92525;
+    border-radius: 33px;
+    
+}
+
+.text{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.job-dis h5{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+}
+.job-dis h5 span{
+    color: rgb(180, 162, 162);
+    font-size: 24px;
+}
+
+.jobDetails{
+    font-size: 18px;
+    color: rgb(180, 162, 162);
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+
+/* portfolio */
+
+
+#portfolio{
+    background-color: #191d2b;
+    width: 100%;
+}
+
+
+.port-title{
+    color: white;
+}
+
+.port-title h3{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.port-title h3 span{
+    color: #d92525
+}
+
+.port-title p{
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+/* .contente{
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 20px rgb(40,40,40);
+}
+
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; 
+    transition: opacity 0.4s  ease-in-out;
+    background: #d92525;
+    cursor: pointer;
+}
+
+.contente{
+    position: absolute;
+    top: 50;
+} */
+
+
+/* .hover-items{
+    width: 100%;
+    height: 100%;
+    background-color: #d92525;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+} */
+
+/* .portfolios .portfolio-item .hover-items .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hover-items h3 {
+    font-size: 1.5rem;
+    color:white;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 15px;
+} */
+.image img{
+    width: 100%;
+    height: 300px;
+}
+
+.left-contact{
+    color: white;
+}
+
+.left-contact h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.con-icon i{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+.con-icon span{
+    font-size: 18px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+.con-item p{
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: end;
+}
+
+/* .for{
+    width: 1000px;
+} */
+
+.form{
+    width: 350px;
+    padding: 10px 20px;
+}
+.form-control{
+    background: #253659;
+    color: #191d2b !important;
+    padding: 10px 20px;
+    border-radius: 33px;
+    border-color: transparent;
+    width: 100%;
+
+}
+
+.form-control:hover{
+    background: #253659 !important;
+    color: transparent;
+}
+
+
+.form-sub{
+    width: 700px;
+    padding: 10px 20px;
+}
+
+
+.form-me{
+    width: 700px;
+
+}
+
+.form-controls{
+    background: #253659;
+    color: #191d2b !important;
+    padding: 100px 10px;
+    border-radius: 33px;
+    border-color: transparent;
+    width: 100%;
+}
